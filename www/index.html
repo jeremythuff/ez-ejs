@@ -1,0 +1,18 @@
+<!--
+Here you can include any variables that you would like to call, 
+either in this doucment or inside any of you includes
+-->
+{{
+	var pageTitle = 'Node Server Template Page';
+    var ejsUp = 'This message was placed here by ejs';	
+}}
+
+{{include inc.start.html}}
+	{{include inc.header.html}}
+<!-- Your content here-->
+
+<p>Hello world!</p>
+
+<!--End of body content-->
+    {{include inc.footer.html}}
+{{include inc.end.html}}
